@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\ButtonScript.cs" />
     <Compile Include="Assets\Rand.cs" />
+    <Compile Include="Assets\Total.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/zhen/mid autm/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
