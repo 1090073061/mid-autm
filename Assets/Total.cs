@@ -20,32 +20,37 @@ public class Total : MonoBehaviour
             narray.Add(a);
             a++;
         }
+        print("b" +String.Join(",", narray.Select(x=>x.ToString()).ToArray()));
 
     }
     int Rand(){
         System.Random rand = new System.Random();
-        return rand.Next(0, endn-startn);
+        int a = rand.Next(0, endn-startn);
+        endn--;
+        return a;
+
 
     }
     static void Shuffle<T>(List<T> arr){
 
         int n = arr.Count;
-        for (int i = 0; i < n;i++){
-            int r = i + random.Next(n - i);
-            T t = arr[i];
-            arr[r] = arr[i];
-            arr[i] = t;
-        }
+            while (n > 1)
+            {
+                n--;
+                int k = random.Next(n + 1);
+                T value = arr[k];
+                arr[k] = arr[n];
+                arr[n] = value;
+            }
     }
    public void Bingo(){
         Shuffle(narray);
+        print("a" + String.Join(",", narray.Select(x => x.ToString()).ToArray()));
         int num = narray[Rand()];
         narray.Remove(num);
         button.GetComponentInChildren<Text>().text = num.ToString();
-        for (int i = 0; i < narray.Count; i++){
-            print(narray[i]);
         }
-    }
+
 
 
 	// Update is called once per frame
