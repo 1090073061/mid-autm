@@ -5,14 +5,17 @@ using System;
 using System.Linq;
 using UnityEngine.UI;
 
+
+
 public class Total : MonoBehaviour
 {
     private static System.Random random = new System.Random();
-    public GameObject button;
-    public int startn = 0;
-    public int endn = 0;
-    private List<int> narray= new List<int>();
+    //public GameObject button;
+    public static int startn = 1;
+    public static int endn = 10;
+    public static List<int> narray= new List<int>();
     // Use this for initialization
+
     void Start()
     {
         int a = startn;
@@ -43,13 +46,14 @@ public class Total : MonoBehaviour
                 arr[n] = value;
             }
     }
-   public void Bingo(){
+    public static List<int> Bingo(){
         Shuffle(narray);
-        print("a" + String.Join(",", narray.Select(x => x.ToString()).ToArray()));
-        int num = narray[Rand()];
-        narray.Remove(num);
-        button.GetComponentInChildren<Text>().text = num.ToString();
-        }
+        return narray;
+        //int num = narray[0];
+        //narray.RemoveAt(0);
+        //print("a" + String.Join(",", narray.Select(x => x.ToString()).ToArray()));
+        //button.GetComponentInChildren<Text>().text = num.ToString();
+    }
 
 
 
