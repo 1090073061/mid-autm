@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using System;
+using UnityEngine.UI;
 
 public class B : MonoBehaviour
 {
@@ -23,9 +24,11 @@ public class B : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
                     print("c" + String.Join(",", Total.narray.Select(x => x.ToString()).ToArray()));
-                    for (int i = 0; i < 5; i++){
-                        print(Total.narray[i]);
-                        Total.narray.RemoveAt(i);
+                    for (int i = 1; i < 6; i++){
+                    print(Total.narray[i-1]);
+                    int num = Total.narray[i - 1];
+                    GameObject.Find(i.ToString()).GetComponentInChildren<Text>().text = num.ToString(); ;
+                    Total.narray.RemoveAt(i-1);
                     }
                 }
         print("d" + String.Join(",", Total.narray.Select(x => x.ToString()).ToArray()));

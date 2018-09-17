@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 238875766}
   - component: {fileID: 238875767}
   m_Layer: 0
-  m_Name: Button
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 337056241}
   - component: {fileID: 337056245}
   m_Layer: 0
-  m_Name: Button
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -562,7 +562,7 @@ GameObject:
   - component: {fileID: 540905314}
   - component: {fileID: 540905317}
   m_Layer: 0
-  m_Name: Button (1)
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -698,7 +698,7 @@ GameObject:
   - component: {fileID: 557475307}
   - component: {fileID: 557475310}
   m_Layer: 0
-  m_Name: Button
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -971,7 +971,7 @@ GameObject:
   - component: {fileID: 947872416}
   - component: {fileID: 947872419}
   m_Layer: 0
-  m_Name: Button
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1103,9 +1103,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1177979623}
   - component: {fileID: 1177979622}
+  - component: {fileID: 1177979624}
   - component: {fileID: 1177979625}
   - component: {fileID: 1177979621}
-  - component: {fileID: 1177979624}
   - component: {fileID: 1177979620}
   m_Layer: 0
   m_Name: Canvas
@@ -1231,6 +1231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1184799365}
   - component: {fileID: 1184799366}
+  - component: {fileID: 1184799367}
   m_Layer: 0
   m_Name: WechatIMG173
   m_TagString: Untagged
@@ -1297,6 +1298,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1184799367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184799364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b450dbb4b740c79a763d93188c09a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1463211724
 GameObject:
   m_ObjectHideFlags: 0
