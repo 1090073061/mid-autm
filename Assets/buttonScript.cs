@@ -13,10 +13,11 @@ public class ButtonScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
-   public void Nextscene()
-    {
-        SceneManager.LoadScene(names, LoadSceneMode.Single);
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            SceneManager.LoadScene(names, LoadSceneMode.Single);
+        }
     }
+   
+
 }

@@ -24,6 +24,7 @@ public class Total : MonoBehaviour
             a++;
         }
         print("b" +String.Join(",", narray.Select(x=>x.ToString()).ToArray()));
+        Shuffle(narray);
 
     }
     int Rand(){

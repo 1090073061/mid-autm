@@ -20,7 +20,6 @@ public class Rand : MonoBehaviour {
         print("removed first " + String.Join(",", Total.Bingo().Select(x => x.ToString()).ToArray()));
     }
 	// Update is called once per frame
-	void Update () {
-		
-	}
+    void Update () {
+    }
 }
