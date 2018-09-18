@@ -64,9 +64,9 @@
     <Compile Include="Assets\B.cs" />
     <Compile Include="Assets\ButtonScript.cs" />
     <Compile Include="Assets\Rand.cs" />
+    <Compile Include="Assets\Re.cs" />
     <Compile Include="Assets\Total.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-<<<<<<< HEAD
       <HintPath>/Users/zhen/mid autm/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
@@ -77,18 +77,6 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/zhen/mid autm/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-=======
-      <HintPath>/Users/niichisei/Documents/GitHub/mid-autm/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/niichisei/Documents/GitHub/mid-autm/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/niichisei/Documents/GitHub/mid-autm/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/niichisei/Documents/GitHub/mid-autm/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
->>>>>>> minor style change
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

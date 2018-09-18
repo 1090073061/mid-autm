@@ -12,7 +12,7 @@ public class Total : MonoBehaviour
     private static System.Random random = new System.Random();
     //public GameObject button;
     public static int startn = 1;
-    public static int endn = 10;
+    public static int endn = 20;
     public static List<int> narray= new List<int>();
     // Use this for initialization
 
