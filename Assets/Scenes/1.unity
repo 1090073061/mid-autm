@@ -667,7 +667,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 22
+    m_FontSize: 30
     m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 0
@@ -678,7 +678,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Vivi Tea
+  m_Text: "Vivi Bubble Tea, \u5DDD\u6F6E, Asian Market, Asian Supermarket "
 --- !u!222 &1955027748
 CanvasRenderer:
   m_ObjectHideFlags: 0
