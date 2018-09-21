@@ -23,7 +23,7 @@ public class Total : MonoBehaviour
             narray.Add(a);
             a++;
         }
-        print("b" +String.Join(",", narray.Select(x=>x.ToString()).ToArray()));
+        //print("b" +String.Join(",", narray.Select(x=>x.ToString()).ToArray()));
         Shuffle(narray);
 
     }

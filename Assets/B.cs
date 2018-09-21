@@ -53,7 +53,7 @@ public class B : MonoBehaviour
             {
                 Total.narray.Remove(num);
                 signal = false;
-                print("final: " + String.Join(",", Total.narray.Select(x => x.ToString()).ToArray()));
+                //print("final: " + String.Join(",", Total.narray.Select(x => x.ToString()).ToArray()));
                 //for (int i = 1; i < 6; i++)
                 //{
                 //    int num = Total.narray[i - 1];
