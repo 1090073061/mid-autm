@@ -16,16 +16,9 @@ public class B : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //print("c" + String.Join(",", Total.narray.Select(x => x.ToString()).ToArray()));
-        //for (int i = 0; i < 5; i++)
-        //{
-        //    print(Total.narray[i]);
-        //}
+
     }
-    //void Gif(){
-
-    //}
-
+  
 
     // Update is called once per frame
     void Update()
@@ -40,12 +33,7 @@ public class B : MonoBehaviour
             Total.Bingo();
             num = Total.narray[0];
             button.GetComponentInChildren<Text>().text = num.ToString(); ;
-            //for (int i = 1; i < 6; i++)
-            //{
-            //    Total.Bingo();
-            //    int num = Total.narray[i - 1];
-            //    GameObject.Find(i.ToString()).GetComponentInChildren<Text>().text = num.ToString(); ;
-            //}
+
         }
         else
         {
@@ -53,14 +41,7 @@ public class B : MonoBehaviour
             {
                 Total.narray.Remove(num);
                 signal = false;
-                //print("final: " + String.Join(",", Total.narray.Select(x => x.ToString()).ToArray()));
-                //for (int i = 1; i < 6; i++)
-                //{
-                //    int num = Total.narray[i - 1];
-                //    GameObject.Find(i.ToString()).GetComponentInChildren<Text>().text = num.ToString(); ;
-                //    Total.narray.RemoveAt(i - 1);
-                //    print(i - 1);
-                //}
+
             }
         }
 
